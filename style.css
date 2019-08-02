@@ -1,0 +1,116 @@
+body {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 0 10px 20px 10px;
+}
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+#header{
+  background: linear-gradient(
+  hsl(0, 0%, 0%) 0%,
+  hsla(0, 0%, 0%, 0.738) 19%,
+  hsla(20, 0%, 0%, 0.541) 34%,
+  hsla(0, 0%, 5%, 0.382) 47%,
+  hsla(0, 0%, 0%, 0.278) 56.5%,
+  hsla(0, 0%, 0%, 0.194) 65%,
+  hsla(0, 2%, 2%, 0.126) 73%,
+  hsla(0, 0%, 0%, 0.075) 80.2%,
+  hsla(0, 0%, 0%, 0.042) 86.1%,
+  hsla(2, 0%, 0%, 0.021) 91%,
+  hsla(0, 0%, 0%, 0.008) 95.2%,
+  hsla(0, 0%, 0%, 0.002) 98.2%,
+  hsla(0, 1%, 0%, 0) 100%
+);
+  border-radius: 10px;
+  width: 100%;
+}
+#title{
+  text-align: center;
+  margin: auto;
+  font-size: 5vw;
+  padding:10px;
+  color: #1d0c83;
+}
+#sub-title{
+  text-align: center;
+  padding:10px;
+  margin:auto;
+  color:#6455ba;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 10px 10px 50px 0px;
+  border-radius: 25px;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  font-size: 22px;
+  margin: 15px 0 5px 0;
+  text-align: center;
+  color:#6455ba;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+ #headline{
+  margin: 50px 0;
+  text-align: center;
+  color:#262626;
+}
+
+h3{
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+} 
+a:hover {
+  color: red;
+}
+
